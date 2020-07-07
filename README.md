@@ -62,8 +62,6 @@ raw_data %>%
          date <= "2010-01-01",
          country == c("China", "Russia", "Japan")) %>%
   eq_map()
-#> Warning: 3 failed to parse.
-#> PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
 ```
 
 <!--html_preserve-->

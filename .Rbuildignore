@@ -3,3 +3,4 @@
 ^signif\.txt$
 ^README\.Rmd$
 ^data-raw$
+^\.travis\.yml$

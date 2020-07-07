@@ -34,8 +34,8 @@ The first example cleans the raw data and produces an earthquake timeline to dis
 
 ```{r echo = TRUE}
 raw_data %>%
-  clean_eq_data() %>%
-  geom_timeline(mindate = "2008-01-01",
+  mastercap::clean_eq_data() %>%
+  mastercap::geom_timeline(mindate = "2008-01-01",
                 maxdate = "2010-01-01",
                 countries = c("China", "Russia", "Japan"))
 ```
@@ -44,8 +44,8 @@ The second example demonstrates the same plot but uses the geom_timeline_label f
 
 ```{r echo = TRUE}
 raw_data %>%
-  clean_eq_data() %>%
-  geom_timeline_label(mindate = "2008-01-01",
+  mastercap::clean_eq_data() %>%
+  mastercap::geom_timeline_label(mindate = "2008-01-01",
                       maxdate = "2010-01-01",
                       countries = c("China", "Russia", "Japan"))
 ```
@@ -54,9 +54,9 @@ The final example demonstrates eq_map. It uses the same filtered data.
 
 ```{r echo = TRUE}
 raw_data %>%
-  clean_eq_data() %>%
+  mastercap::clean_eq_data() %>%
   dplyr::filter(date >= "2008-01-01",
          date <= "2010-01-01",
          country == c("China", "Russia", "Japan")) %>%
-  eq_map()
+  mastercap::eq_map()
 ```
