@@ -53,7 +53,7 @@ raw_data %>%
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
-The final example demonstrates eq\_map. It uses the same filtered data.
+The final example demonstrates eq\_map. It uses the same filtered data. The plot has been hidden because it was breaking the HTML on github. It still works in R Studio, though.
 
 ``` r
 raw_data %>%
