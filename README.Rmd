@@ -1,5 +1,9 @@
 ---
 output: github_document
+<<<<<<< HEAD
+=======
+always_allow_html: true
+>>>>>>> cdc69c09892041ba776609bb52d0c72c0beb2a26
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -11,6 +15,13 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+<<<<<<< HEAD
+=======
+require(mastercap)
+load("data/raw_data.rda")
+
+require(tidyverse)
+>>>>>>> cdc69c09892041ba776609bb52d0c72c0beb2a26
 ```
 
 # Mastercap Earthquake Data Visualization Package
@@ -30,9 +41,13 @@ The four main functions are:
 
 The first example cleans the raw data and produces an earthquake timeline to display earthquakes in China, Russia, and Japan between Jan 1, 2008, and Jan 1, 2010.
 
+<<<<<<< HEAD
 ```{r}
 library(mastercap)
 data("raw_data.rda")
+=======
+```{r echo = TRUE}
+>>>>>>> cdc69c09892041ba776609bb52d0c72c0beb2a26
 raw_data %>%
   clean_eq_data() %>%
   geom_timeline(mindate = "2008-01-01",
@@ -42,9 +57,13 @@ raw_data %>%
 
 The second example demonstrates the same plot but uses the geom_timeline_label function.
 
+<<<<<<< HEAD
 ```{r}
 library(mastercap)
 data("raw_data.rda")
+=======
+```{r echo = TRUE}
+>>>>>>> cdc69c09892041ba776609bb52d0c72c0beb2a26
 raw_data %>%
   clean_eq_data() %>%
   geom_timeline_label(mindate = "2008-01-01",
@@ -54,12 +73,19 @@ raw_data %>%
 
 The final example demonstrates eq_map. It uses the same filtered data.
 
+<<<<<<< HEAD
 ```{r}
 library(mastercap)
 data("raw_data.rda")
 raw_data %>%
   clean_eq_data() %>%
   filter(date >= "2008-01-01",
+=======
+```{r echo = TRUE}
+raw_data %>%
+  clean_eq_data() %>%
+  dplyr::filter(date >= "2008-01-01",
+>>>>>>> cdc69c09892041ba776609bb52d0c72c0beb2a26
          date <= "2010-01-01",
          country == c("China", "Russia", "Japan")) %>%
   eq_map()
