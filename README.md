@@ -63,13 +63,3 @@ raw_data %>%
          country == c("China", "Russia", "Japan")) %>%
   eq_map()
 ```
-
-<!--html_preserve-->
-
-<div id="htmlwidget-dd2556aaf7df965e971e" class="leaflet html-widget" style="width:100%;height:480px;">
-
-</div>
-
-<script type="application/json" data-for="htmlwidget-dd2556aaf7df965e971e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[[32.71,39.03,39.802,32.747,32.756,25.051,30.901,26.272,23.97,31.158,34.921],[105.54,140.881,141.464,105.542,105.494,97.919,83.52,101.937,97.569,85.902,139.261],[5.7,6.9,6.8,5.6,6,5,6.7,5.9,4.8,5.8,4.9],null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.1},null,null,["<b>Location:<\/b>  Sichuan Province <br><b>Magnitude:<\/b>  5.7  <br><b>Date:<\/b>  2008-05-27","<b>Location:<\/b>  Honshu: Tokyo <br><b>Magnitude:<\/b>  6.9 <br><b>Total deaths:<\/b>  13 <br><b>Date:<\/b>  2008-06-13","<b>Location:<\/b>  Honshu: N <br><b>Magnitude:<\/b>  6.8 <br><b>Total deaths:<\/b>  1 <br><b>Date:<\/b>  2008-07-23","<b>Location:<\/b>  Sichuan Province <br><b>Magnitude:<\/b>  5.6 <br><b>Total deaths:<\/b>  1 <br><b>Date:<\/b>  2008-07-24","<b>Location:<\/b>  Sichuan Province <br><b>Magnitude:<\/b>  6 <br><b>Total deaths:<\/b>  4 <br><b>Date:<\/b>  2008-08-05","<b>Location:<\/b>  Yunnan Province <br><b>Magnitude:<\/b>  5  <br><b>Date:<\/b>  2008-08-19","<b>Location:<\/b>  Tibet (Xizang Province) <br><b>Magnitude:<\/b>  6.7  <br><b>Date:<\/b>  2008-08-25","<b>Location:<\/b>  Sichuan Province <br><b>Magnitude:<\/b>  5.9 <br><b>Total deaths:<\/b>  43 <br><b>Date:<\/b>  2008-08-30","<b>Location:<\/b>  Yunnan Province: Simao <br><b>Magnitude:<\/b>  4.8  <br><b>Date:<\/b>  2008-12-25","<b>Location:<\/b>  Tibet (Xizang Province): Gyungcan <br><b>Magnitude:<\/b>  5.8  <br><b>Date:<\/b>  2009-07-24","<b>Location:<\/b>  Honshu: Ito <br><b>Magnitude:<\/b>  4.9  <br><b>Date:<\/b>  2009-12-17"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[23.97,39.802],"lng":[83.52,141.464]}},"evals":[],"jsHooks":[]}</script>
-
-<!--/html_preserve-->
